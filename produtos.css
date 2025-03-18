@@ -20,7 +20,7 @@ nav li{
     margin: 0 0 0 15px;
 }
 
-navi a {
+nav a {
     text-transform: uppercase;
     color: black;
     font-weight: bold;
@@ -38,6 +38,7 @@ nav a:hover{
     margin: 0 auto;
     padding: 50px 0;
 }
+
 .produtos li{
     display: inline-block;
     text-align: center;
@@ -47,6 +48,17 @@ nav a:hover{
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color: #c78c19;
+}
+
+.produtos li:active{
+    border-color: #c75619;
+}
+.produtos li:hover h2{
+    font-size: 34px;
 }
 
 .produtos h2{
