@@ -43,3 +43,7 @@ form label form p {
     background-color: rgb(179, 33, 33);
     transform: scale(1.2);
 }
+
+table {
+    margin: 20px 0 40px;
+}
