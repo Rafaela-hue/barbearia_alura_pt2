@@ -47,3 +47,13 @@ form label form p {
 table {
     margin: 20px 0 40px;
 }
+
+thead{
+    background-color: black;
+    color: brown;
+    font-weight: bold;
+}
+
+td, th{
+    border: 3px solid;
+}
