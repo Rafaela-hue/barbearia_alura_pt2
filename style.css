@@ -62,6 +62,7 @@ conteudo-beneficios{
 
 .mapa {
 	padding: 3em 0;
+	background: linear-gradient(#fefefe, #888888);
 }
 
 mapa p{
