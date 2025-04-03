@@ -50,6 +50,16 @@ body{
 	padding: 20px;
 }
 
+conteudo-beneficios{
+	width: 640px;
+}
+
+.lista-beneficios{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
 .mapa {
 	padding: 3em 0;
 }
