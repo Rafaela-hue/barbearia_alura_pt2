@@ -37,10 +37,6 @@ body{
 	margin: 0 20px 20px ;
 }
 
-.imagembeneficios {
-	width: 60%;
-}
-
 .itens {
 	font-style: italic
 }
@@ -58,6 +54,29 @@ conteudo-beneficios{
 	width: 40%;
 	display: inline-block;
 	vertical-align: top;
+}
+
+.imagembeneficios{
+	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover{
+	opacity: 0.3;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child{
+	font-weight: bold;
+}
+
+.itens:before{
+	content: "★";
 }
 
 .mapa {
