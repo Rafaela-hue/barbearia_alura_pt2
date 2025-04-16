@@ -33,8 +33,8 @@ form label, form p {
 .enviar {
     width: 40%;
     padding: 15px 0;
-    background: rgb(133, 0, 0);
-    color: rgb(0, 0, 0);
+    background: rgb(orange);
+    color: rgb(white);
     font-weight: bold;
     font-size: 18px;
     border: none;
@@ -44,7 +44,7 @@ form label, form p {
 }
 
 .enviar:hover {
-    background-color: rgb(179, 33, 33);
+    background-color: rgb(darkorange);
     transform: scale(1.2);
 }
 
@@ -53,11 +53,12 @@ table {
 }
 
 thead{
-    background-color: black;
-    color: brown;
+    background-color: #555555;
+    color: white;
     font-weight: bold;
 }
 
 td, th{
-    border: 3px solid;
-}
+    border: 1px solid black;
+    padding: 8px 15px;
+  }
